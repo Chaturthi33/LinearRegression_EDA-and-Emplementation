@@ -31,5 +31,5 @@
 #####    .gender: Female → 0, Male → 1
 #####    .smoker: non-smoker → 0, smoker → 1
 ###  Applied One-Hot Encoding on region:
-#####    .Created columns: region_northeast, region_northwest, region_southeast, region_southwest
+#####     .Created columns: region_northeast, region_northwest, region_southeast, region_southwest
 ###  Replaced Boolean values (True/False) with (1/0).
