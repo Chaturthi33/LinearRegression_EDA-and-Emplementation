@@ -21,3 +21,15 @@
 ##### region	 :      object	  :      Residential area (northeast, northwest, southeast, southwest)
 ##### smoker	 :      object	  :      Smoking status (smoker / non-smoker)
 ##### medical_cost :  float64	  :      Annual medical insurance cost (target variable)
+
+
+## Data Preprocessing
+
+###  Checked for null values and duplicates
+#####    .No missing data or duplicates found.
+###  Converted categorical data into numerical form:
+#####    .gender: Female → 0, Male → 1
+#####    .smoker: non-smoker → 0, smoker → 1
+###  Applied One-Hot Encoding on region:
+#####    .Created columns: region_northeast, region_northwest, region_southeast, region_southwest
+###  Replaced Boolean values (True/False) with (1/0).
