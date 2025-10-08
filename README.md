@@ -33,3 +33,5 @@
 ###  Applied One-Hot Encoding on region:
 #####     .Created columns: region_northeast, region_northwest, region_southeast, region_southwest
 ###  Replaced Boolean values (True/False) with (1/0).
+
+
