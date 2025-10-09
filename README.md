@@ -35,3 +35,26 @@
 ###  Replaced Boolean values (True/False) with (1/0).
 
 
+## Visual Summary
+##### Histogram
+##### Boxplot
+##### Countplot
+##### Pie Chart
+##### Heatmap
+
+## Model Overview
+### 1️ Simple Linear Regression
+#####     Feature Used: smoker
+#####     Target: medical_cost
+#####     Model: LinearRegression()
+#####     R² Score (Train/Test): 1.0 (Strong linear relationship)
+### 2️ Multiple Linear Regression
+#####     Features Used: age, bmi, smoker
+##### Target: medical_cost
+##### R² Score (Train/Test): 1.0
+#####  (Indicates a very strong model fit for this dataset)
+
+
+#####     Target: medical_cost
+#####     R² Score (Train/Test): 1.0
+#####     (Indicates a very strong model fit for this dataset)
